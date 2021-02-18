@@ -1,0 +1,41 @@
+.our-work-section {
+  padding-bottom: 94px;
+}
+
+.our-work-menu {
+  display: flex;
+}
+
+.our-work-item {
+  width: 370px;
+  height: 294px;
+  position: relative;
+}
+
+.our-work-menu .our-work-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.our-work-container {
+  position: absolute;
+  width: 100%;
+  min-height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  bottom: 0;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.our-work-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--background-color);
+  margin: 0;
+  padding: 0;
+}

@@ -1,0 +1,133 @@
+.portfolio-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.images-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  margin-bottom: 4px;
+  margin-top: 0px;
+  letter-spacing: 0.06em;
+  color: var(--first-text-color);
+}
+
+.images-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.185;
+  letter-spacing: 0.03em;
+  color: var(--second-text-color);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  background-color: var(--hover-color);
+  color: var(--background-color);
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
+
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.08);
+
+  box-shadow: 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+.buttons-menu {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.buttons-menu .buttons-item + .buttons-item {
+  margin-left: 8px;
+}
+
+.portfolio-btn {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: 0px;
+  padding: 6px 22px;
+  border-radius: 4px;
+  background-color: rgb(245, 244, 250);
+
+  /* transition: background-color, color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
+
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.cards-menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards-item {
+  width: 370px;
+  outline: 1px solid #eeeeee;
+  margin-right: 30px;
+}
+
+.cards-item:nth-child(-n + 6) {
+  margin-bottom: 30px;
+}
+
+.cards-item:nth-child(3n + 3) {
+  margin-right: 0px;
+}
+
+.cards-link {
+  text-decoration: none;
+}
+
+.cards-box {
+  padding: 20px 24px 20px 24px;
+}
+.cards-item:hover,
+.cards-item:focus {
+  background: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.cards-images-box {
+  overflow: hidden;
+  position: relative;
+  width: 370px;
+  height: 294px;
+}
+
+.cards-link:hover .cards-hover-container,
+.cards-link:focus .cards-hover-container {
+  transform: translateY(0);
+}
+
+.cards-hover-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(101%);
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 150, 243, 0.9);
+}
+
+.cards-hover-text {
+  padding: 63px 24px 63px 24px;
+  font-family: Roboto;
+  height: 100%;
+  margin: 0;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: var(--background-color);
+}

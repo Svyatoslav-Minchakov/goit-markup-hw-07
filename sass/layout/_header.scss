@@ -1,0 +1,123 @@
+.header-portfolio {
+  border-bottom: 1px solid #ececec;
+}
+
+.container-logo {
+  margin-bottom: 20px;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
+  color: var(--hover-color);
+}
+
+.studio-black {
+  color: var(--first-text-color);
+}
+
+.studio-white {
+  color: var(--background-color);
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-menu .nav-menu-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.nav-menu a {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.nav-menu-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: var(--first-text-color);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.contacts {
+  display: flex;
+  margin-left: auto;
+  align-items: center;
+}
+
+.contacts-link {
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.contacts .contacts-item + .contacts-item {
+  margin-left: 50px;
+}
+
+.contacts a {
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--second-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.142;
+  display: flex;
+  align-items: center;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.contakts-icon-mail {
+  width: 16px;
+  height: 12px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.contakts-icon-smart {
+  width: 10px;
+  height: 16px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.vebstudio-accent-line {
+  width: 100%;
+  height: 4px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.portfolio-accent-line {
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  left: 0;
+  bottom: 0;
+}
+
+.nav-menu-item {
+  position: relative;
+}

@@ -1,0 +1,18 @@
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.166;
+  letter-spacing: 0.03em;
+  color: var(--first-text-color);
+  margin-top: 0px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.nav-menu :hover,
+.nav-menu :focus,
+.contacts :hover,
+.contacts :focus,
+.accent {
+  color: var(--hover-color);
+}
