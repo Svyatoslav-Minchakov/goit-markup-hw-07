@@ -10,10 +10,10 @@
   width: 370px;
   height: 294px;
   position: relative;
-}
 
-.our-work-menu .our-work-item:not(:last-child) {
-  margin-right: 30px;
+  .our-work-menu &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .our-work-container {
